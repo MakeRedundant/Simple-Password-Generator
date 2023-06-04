@@ -63,7 +63,7 @@ function generatePassword() { //This function prompts the user to enter the desi
 //It generates the password by randomly selecting characters from the charset arrays and concatenating them to the password variable.
 
   // Checks if at least one character set is selected
-  if (charset.length === 0) {
+  if (charset.length === 0) {  //=== uses strict equality to check if the variable is empty or has a length of 0 to return the alert
     alert("Please select at least one option.");
     return "";
   }
