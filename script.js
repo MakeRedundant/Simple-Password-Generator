@@ -82,14 +82,14 @@ function generatePassword() { //This function prompts the user to enter the desi
 function savePassword() { // Retrieves the generated password from the <textarea> element with the ID "password" and assigns it to the passwordText variable.
   var passwordText = document.querySelector("#password").value; //it first retrieves the generated password using document.querySelector("#password").value.
   // The retrieved password is assigned to the passwordText variable.
-  if (passwordText.trim() === "") { //trim removes whitespace characters 
+  if (passwordText.trim() === "") { //trim removes whitespace characters
     alert("No password generated."); 
     return;
   }
   var savedPasswordsTextarea = document.querySelector("#savedPasswords"); //f the trimmed passwordText is not empty it is added to the textarea with the Id savedPasswords
-  var savedPasswords = savedPasswordsTextarea.value;
-  savedPasswords += passwordText + "\n";
-  savedPasswordsTextarea.value = savedPasswords;
+  var savedPasswords = savedPasswordsTextarea.value; 
+  savedPasswords += passwordText + "\n"; //here the generated password is added to the saved passwords string with the +- operator to concatenate the new password, "\n" is so each is represnted on a new line
+  savedPasswordsTextarea.value = savedPasswords; 
   alert("Password saved!"); //prompts that the password has been saved
 }
 //Event listerners are functions triggered by the user
