@@ -2,11 +2,11 @@
 
 ## Description
 This is a website made to generate passwords for users with access to sensitive data, made to meet specific criteria. 
-The website allows through the usage of prompts allows creation of passwords of at least 8 characters and no more than 128 characters,
-to include or not to include lowercase, uppercase, numeric, and/or special characters when the user answers each prompt. 
+The website allows through a series of prompts allows for the creation of passwords of at least 8 characters and no more than 128 characters,
+to include or not to include lowercase, uppercase, numeric, andspecial characters when the user answers each prompt. 
 The website will validate that at least one chracter type should be selected when all prompts are answered.
 The password generated will fit the requirements of the user and is able to be displayed and saved on the page.
-
+The website will save multiple passwords each independetly should the user require multiple generated passwords
 
 ## Usage
 User can utilise the website to generate secure passwords that suits their requirements.
