@@ -9,7 +9,8 @@ The password generated will fit the requirements of the user and is able to be d
 
 
 ## Usage
-User can utilise the website to generate secure passwords that suits their requirements
+User can utilise the website to generate secure passwords that suits their requirements.
+The website can be viewed below with a link to the deployed website.
 
 ## Screenshot
 
