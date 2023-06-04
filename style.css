@@ -117,11 +117,11 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
-#savedPasswords {
+/*Section for Saved Passwords */
+#savedPasswords { 
   width: 100%;
   height: 100px; 
-  resize: vertical; 
+  resize: vertical; /*lets the user resize the saved passowrds text box in case the saved passwords are too long and wordy */
 }
 
 @media (max-width: 690px) {
